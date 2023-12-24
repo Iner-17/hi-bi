@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Peralta&family=Poppins:wght@300;400&family=Rubik+Doodle+Shadow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+body {
+    background-color: rgb(55, 205, 231);
+}
+
+.container {
+    margin: 0 auto;
+    width:  500px;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 3rem;
+    transition: 5.5s;
+    text-align: center;
+}
+
+.me {
+    font-size: 10rem;
+    transition: 5.5s;
+}
+
+button {
+    margin-top: 20px;
+    font-size: 2rem;
+    padding: 0 30px;
+    background: lightblue;
+    cursor: pointer;
+}
